@@ -65,7 +65,7 @@ IPV6·卫视,#genre#
 三沙卫视「IPV6」 ,http://[2409:8087:5e01:34::21]:6610/ZTE_CMS/08984400000000060000000000000319/index.m3u8?IAS
 黑龙江卫视「IPV6」 ,http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001031/index.m3u8?
 
-•特色,#genre#
+·特色,#genre#
 LOL 全球总决赛「S13」 ,https://tv.iill.top//bilibili/10
 广东4k ,http://113.117.74.17:8081/hls/145/index.m3u8
 CCTV 4K ,http://113.117.74.17:8081/hls/144/index.m3u8
@@ -73,3 +73,33 @@ CCTV 4K ,http://113.117.74.17:8081/hls/144/index.m3u8
 广东经济科教 ,http://113.117.74.17:8081/hls/66/index.m3u8
 大湾区卫视 ,http://113.117.74.17:8081/hls/80/index.m3u8
 广东珠江 ,https://php.17186.eu.org/gdtv/web/gdzj.m3u8
+
+广东频道,#genre#
+广东卫视,https://angtv.cc/test/itouch.php?id=gdws
+广东珠江,https://angtv.cc/test/itouch.php?id=gdzj
+大湾区卫视,https://angtv.cc/test/itouch.php?id=nfws
+广东民生,https://angtv.cc/test/itouch.php?id=gdms
+广东新闻,https://angtv.cc/test/itouch.php?id=gdxw
+广东经济科教,https://angtv.cc/test/itouch.php?id=gdjjkj
+广东体育,https://angtv.cc/test/itouch.php?id=gdty
+广东少儿,https://angtv.cc/test/itouch.php?id=gdse
+广东影视,https://angtv.cc/test/itouch.php?id=gdys
+嘉佳卡通,https://angtv.cc/test/itouch.php?id=jjkt
+广东国际,https://angtv.cc/test/itouch.php?id=gdgj
+肇庆综合,https://angtv.cc/test/itouch.php?id=zqzh
+阳江-1,https://angtv.cc/test/itouch.php?id=yjtv1
+阳江-2,https://angtv.cc/test/itouch.php?id=yjtv2
+惠东综合,https://angtv.cc/test/itouch.php?id=hdzh
+开平综合,https://angtv.cc/test/itouch.php?id=kpzh
+开平生活,https://angtv.cc/test/itouch.php?id=kpsh
+工布江达县广播电视台,https://angtv.cc/test/itouch.php?id=gbjd
+普宁综合,https://angtv.cc/test/itouch.php?id=pnzh
+连州综合,https://angtv.cc/test/itouch.php?id=lzzh
+阳春综合,https://angtv.cc/test/itouch.php?id=yczh
+怀集综合,https://angtv.cc/test/itouch.php?id=hjzh
+惠阳电视台,https://angtv.cc/test/itouch.php?id=hytv
+信宜综合,https://angtv.cc/test/itouch.php?id=xyzh
+徐闻综合,https://angtv.cc/test/itouch.php?id=xwzh
+阳西综合,https://angtv.cc/test/itouch.php?id=yxzh
+罗定综合,https://angtv.cc/test/itouch.php?id=ldzh
+和平综合,https://angtv.cc/test/itouch.php?id=hpzh
