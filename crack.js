@@ -34,7 +34,7 @@ const handleRequest = () => {
       MacUpdater();
     }
   } else if (domain.endsWith(hostname[4])) {
-    if (path.endWith('info')) {
+    if (path.endsWith('info')) {
       mumuInfo();
     }
   }
