@@ -34,7 +34,7 @@ const handleRequest = () => {
       MacUpdater();
     }
   } else if (domain.endsWith(hostname[4])) {
-    if (path.endWith('user/info')) {
+    if (path.endWith('info')) {
       mumuInfo();
     }
   }
@@ -169,7 +169,6 @@ const MediaMate = () => {
 };
 //MuMu
 const mumuInfo = () => {
-  if (url !== "https://api-pro.mumu.163.com/api/v1/user/info") return;
   let body = JSON.stringify({
     code: 0,
     msg: "ok",
