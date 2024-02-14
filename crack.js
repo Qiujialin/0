@@ -1,5 +1,5 @@
 const hostname = ['v3.paddleapi.com','api.elpass.app','api.gumroad.com',
-  'amazonaws.com'
+  'amazonaws.com','api-pro.mumu.163.com'
   // '/.*?\.execute-api.*\.amazonaws\.com/'
   ]
 const url = $request.url;
@@ -32,6 +32,10 @@ const handleRequest = () => {
     // /default/
     if (['meddle-activate','meddle-authenticate','meddle-deactivate'].some(end => path.endsWith(end))) {
       MacUpdater();
+    }
+  } else if (domain.endsWith(hostname[4])) {
+    if (path.endWith('user/info')) {
+      mumuInfo();
     }
   }
 
@@ -163,7 +167,34 @@ const MediaMate = () => {
     },
   });
 };
-
+//MuMu
+const mumuInfo = () => {
+  if (url !== "https://api-pro.mumu.163.com/api/v1/user/info") return;
+  let body = JSON.stringify({
+    code: 0,
+    msg: "ok",
+    data: {
+      user_id: "aaaaaaaaa1aaaa1a",
+      nickname: "188****8888",
+      member_expired_at: 4102415999,
+      member_status: 0,
+      enabled_device_count: 1,
+      current_device_status: 1,
+      current_device: {
+        device_id: "aaaaaaaaaaaaaahk",
+        alias: "MacBook Pro",
+        last_binded_at: 1706689408,
+        trial_end_at: 1707235199,
+        trial_status: 1
+      }
+    }
+  });
+  $done({
+    response: {
+      body,
+    },
+  });
+};
 // MacUpdater
 const MacUpdater = () => {
   let body = "success";
