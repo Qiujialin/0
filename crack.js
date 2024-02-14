@@ -176,7 +176,7 @@ const mumuInfo = () => {
       user_id: "aaaaaaaaa1aaaa1a",
       nickname: "188****8888",
       member_expired_at: 4102415999,
-      member_status: 0,
+      member_status: 1,
       enabled_device_count: 1,
       current_device_status: 1,
       current_device: {
